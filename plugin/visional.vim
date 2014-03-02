@@ -19,7 +19,6 @@ function! s:visional()
 
 endfunction
 
-    let g:visionalnoauto = 0
 if (!exists("g:visionalnoauto") || (g:visionalnoauto == 1))
   augroup HighlightVisional
     au!

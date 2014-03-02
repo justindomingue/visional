@@ -18,6 +18,6 @@ Simply define your highlight in `g:visionalhl` in your `vimrc`. For example, the
 
 ## Disable Visional
 
-If you don't want the occurences of the word under the cursor to be highlighted, set the global variable `g:visionalnoauto` to 1
+If you don't want the occurences of the word under the cursor to be highlighted, set the global variable `g:visionalnoauto` to 0
 
-    let g:visionalnoauto = 1
+    let g:visionalnoauto = 0
